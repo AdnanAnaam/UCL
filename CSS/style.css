@@ -1,0 +1,30 @@
+.category-button {
+    width: 45px;
+    height: 45px;
+}
+
+.category-button i {
+    font-size: large;
+}
+
+.man-running {
+    background-color: #0FD878;
+    border-radius: 850px 850px 120px 120px;
+    /* transform: scale(0.9,1.9); */
+}
+
+.categories_button {
+    background-color: #0FD878;
+    outline: none;
+    border: none;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    height: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .first_section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
