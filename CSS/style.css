@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width:768px) {
-    .first_section {
+    .reverse_direction {
         flex-direction: column-reverse;
         text-align: center;
     }
