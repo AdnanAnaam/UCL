@@ -27,11 +27,30 @@
         text-align: center;
     }
 
+    .width_of_slider {
+        width: 23rem;
+    }
 
+
+}
+
+@media only screen and (min-width:599px) and (max-width: 991px) {
+    .slider_left_space_for_small_devices {
+        margin-left: 120px;
+        margin-right: 30px;
+    }
+
+    .width_of_slider {
+        width: 23rem;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
     .slider_left_space {
         margin-left: 160px;
+    }
+
+    .width_of_slider {
+        width: 30rem;
     }
 }
