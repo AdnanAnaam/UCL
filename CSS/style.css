@@ -26,4 +26,12 @@
         flex-direction: column-reverse;
         text-align: center;
     }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .slider_left_space {
+        margin-left: 160px;
+    }
 }
