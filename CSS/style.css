@@ -1,3 +1,4 @@
+/* Start Cateogries Section */
 .category-button {
     width: 45px;
     height: 45px;
@@ -21,17 +22,28 @@
     height: 40px;
 }
 
+.Green_Button_of_slider {
+    background-color: #0FD878;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.White_Button_of_slider {
+    background-color: white;
+    color: #0FD878;
+    border-color: #0FD878;
+    height: 40px;
+}
+
+/* End Cateogries Section */
+
+/* Start Media Query */
 @media screen and (max-width:768px) {
     .reverse_direction {
         flex-direction: column-reverse;
         text-align: center;
     }
-
-    .width_of_slider {
-        width: 23rem;
-    }
-
-
 }
 
 @media only screen and (min-width:599px) and (max-width: 991px) {
@@ -43,8 +55,9 @@
     .width_of_slider {
         width: 23rem;
     }
+    
 }
-
+/* For Large Screens */
 @media only screen and (min-width: 1200px) {
     .slider_left_space {
         margin-left: 160px;
@@ -53,6 +66,12 @@
     .width_of_slider {
         width: 30rem;
     }
+    .width_of_slider2 {
+        width: 17rem;
+    }
+    .mid_section_of_slider2{
+        margin-left: 5rem;
+    }
 }
 
 .second_section {
@@ -60,3 +79,5 @@
     border-bottom-left-radius: 500px 450px 0px 450px;
     opacity: 0.5;
 }
+
+/* End Media Query */
