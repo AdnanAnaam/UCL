@@ -38,6 +38,14 @@
 
 /* End Cateogries Section */
 
+/* Start Contact Us Section */
+.Fields_of_Contact_Us {
+    border: 2px solid #0FD878;
+    width: 17rem;
+}
+
+/* End Contact Us Section */
+
 /* Start Media Query */
 @media screen and (max-width:768px) {
     .reverse_direction {
@@ -55,8 +63,13 @@
     .width_of_slider {
         width: 23rem;
     }
-    
+
+    .size_width {
+        width: 24rem;
+        margin-left: 20%;
+    }
 }
+
 /* For Large Screens */
 @media only screen and (min-width: 1200px) {
     .slider_left_space {
@@ -66,10 +79,12 @@
     .width_of_slider {
         width: 30rem;
     }
+
     .width_of_slider2 {
         width: 17rem;
     }
-    .mid_section_of_slider2{
+
+    .mid_section_of_slider2 {
         margin-left: 5rem;
     }
 }
